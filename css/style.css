@@ -1,0 +1,18 @@
+:root { color-scheme: light; --ink:#26342d; --muted:#65726b; --paper:#f7f5f0; --card:#fff; --line:#e4e5df; --accent:#34664d; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:16px; line-height:1.55; }
+.page { width:min(100%, 680px); margin:0 auto; padding:calc(24px + env(safe-area-inset-top)) 20px calc(32px + env(safe-area-inset-bottom)); }
+.home-page { min-height:100dvh; display:flex; flex-direction:column; justify-content:center; }
+.intro { margin-bottom:38px; }
+.eyebrow { margin:0 0 6px; color:var(--accent); font-size:.88rem; font-weight:700; letter-spacing:.02em; }
+h1,h2,h3,p { margin-top:0; } h1 { margin-bottom:5px; font-size:2rem; line-height:1.18; letter-spacing:-.03em; } h2 { font-size:1.25rem; line-height:1.3; } h3 { font-size:1rem; }
+.intro p:last-child { color:var(--muted); }
+.home-nav { display:grid; gap:12px; }
+.home-link { min-height:75px; display:flex; align-items:center; gap:16px; padding:18px 20px; border:1px solid var(--line); border-radius:16px; background:var(--card); box-shadow:0 1px 2px rgba(22,40,30,.04); color:var(--ink); font-size:1.08rem; font-weight:650; text-decoration:none; }
+.home-link span { width:26px; font-size:1.45rem; text-align:center; }
+.source-note { margin-top:28px; color:var(--muted); font-size:.9rem; }.source-note h2 { margin-bottom:7px; color:var(--ink); font-size:1rem; }.source-note p { margin-bottom:0; }
+.page-header { margin-bottom:24px; }.page-header h1 { margin:15px 0 0; }.back { color:var(--accent); font-weight:650; text-decoration:none; }
+.card { margin:0 0 16px; padding:20px; border:1px solid var(--line); border-radius:16px; background:var(--card); }.card h2 { margin-bottom:16px; }.card h3 { margin:20px 0 7px; color:var(--accent); }.card h3:first-of-type { margin-top:0; }
+.plain { margin:0; white-space:pre-line; }.items { margin:0; padding-left:20px; }.items li { margin:4px 0; }.facts { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0; }.fact { padding:12px; border-radius:10px; background:#f5f6f2; }.fact strong,.label { display:block; color:var(--muted); font-size:.78rem; font-weight:700; letter-spacing:.02em; }.note { color:var(--muted); }.section-intro { margin-bottom:18px; color:var(--muted); }
+.map-link { display:inline-block; margin-top:12px; padding:9px 12px; border-radius:9px; background:#eef4ef; color:var(--accent); font-size:.9rem; font-weight:700; text-decoration:none; }
+@media (min-width:520px) { .home-nav { grid-template-columns:1fr 1fr; } }

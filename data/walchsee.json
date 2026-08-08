@@ -1,0 +1,43 @@
+{
+  "days": [
+    {"title":"Dag 1 – Aankomst en ontspannen kennismaken","sections":[["📅 Dagplanning","15:00–17:00  Inchecken bij Das Walchsee Resort.\n17:30  Wandeling rondom de Walchsee."],["🥾 Wandeling","Afstand\n5,8 km\nDuur\n1,5 uur\nHoogtemeters\nca. 40 m\nMoeilijkheid\nEenvoudig\nOndergrond\nVerhard en grind"],["📍 Locaties","• Hotel\n• Startpunt: Walchsee boulevard\n• 📍 Open in Google Maps"],["🍽 Dineradvies","• Seestüberl Walchsee (meerzicht)\n• Restaurant Postgasthof Fischerwirt (traditioneel Oostenrijks)"],["📷 Fototips","• Steiger aan de zuidzijde van het meer.\n• Zonsondergang aan de westzijde."]]},
+    {"title":"Dag 2 – Zahmer Kaiser","sections":[["📅 Dagplanning","08:30  Vertrek hotel.\n09:00  Parkeren bij wandelstart.\nPanoramawandeling.\n\nMiddag: Bezoek aan Lochner Wasserfall."],["🥾 Wandeling","Afstand\n9,2 km\nDuur\n3,5 uur\nHoogtemeters\n±430 m\nMoeilijkheid\nGemiddeld"],["🍽 Lunch","Alm met Tiroler specialiteiten onderweg."],["🍽 Diner","Gasthof Dorfwirt Walchsee."],["📍 Locaties","📍 Open in Google Maps"]]},
+    {"title":"Dag 3 – Kufstein & Kaiserlift","sections":[["📅 Dagplanning","08:30 Vertrek vanaf Das Walchsee Resort.\nRijtijd naar Kufstein: ca. 20 minuten.\n\nProgramma:\n• Parkeer in Parkgarage Zentrum.\n• Wandel door de Altstadt.\n• Bezoek Festung Kufstein.\n• Neem de Kaiserlift voor een panoramawandeling.\n\nMiddag:\nRijd via Ebbs terug en stop bij een uitzichtpunt over het Inntal."],["🥾 Wandeling","Afstand\n7,8 km\nDuur\n2,5–3 uur\nHoogtemeters\n±320 m\nMoeilijkheid\nGemiddeld"],["🍽 Lunch","Berghut met terras nabij het bergstation."],["🍽 Diner","Auracher Löchl (Kufstein) of terug naar Walchsee voor een rustiger avond."],["📍 Locaties","📍 Open in Google Maps (bestaande links uit bronbestand behouden)"]]},
+    {"title":"Dag 4 – Wilder Kaiser","sections":[["📅 Dagplanning","08:15 Vertrek richting Ellmau.\n\nMiddag:\nBezoek Ellmau of Going voor een terrasje en korte dorpswandeling."],["🥾 Wandeling","Afstand\n10,5 km\nDuur\n4 uur\nHoogtemeters\n±520 m\nMoeilijkheid\nGemiddeld"],["🍽 Lunch","Traditionele alm met Tiroler gerechten."],["🍽 Diner","Restaurant met regionale keuken in Walchsee."],["📍 Locaties","📍 Open in Google Maps (bestaande links uit bronbestand behouden)"],["💡 Praktische tips","Panorama over de Wilder Kaiser\nAlmweiden\nFotostops onderweg"]]},
+    {"title":"Dag 5 – Chiemsee & Herreninsel","sections":[["📅 Dagplanning","08:30 Vertrek.\nRijtijd naar Prien am Chiemsee: ca. 50 minuten.\n\nProgramma:\n• Parkeren bij de haven\n• Boot naar Herreninsel\n• Bezoek Schloss Herrenchiemsee\n• Wandeling over het eiland\n\nTerug via panoramaroute langs de Chiemsee."],["🥾 Wandeling","Afstand\n6,5 km\nDuur\n2 uur\nHoogtemeters\n±40 m\nMoeilijkheid\nEenvoudig"],["🍽 Lunch","Restaurant aan de haven of op Herreninsel."],["🍽 Diner","Diner in Walchsee."],["📍 Locaties","📍 Open in Google Maps (bestaande links uit bronbestand behouden)"]]},
+    {"title":"Dag 6 – Kaisertal","sections":[["📅 Dagplanning","08:15 Vertrek."],["🥾 Wandeling","Afstand\n11,2 km\nDuur\n4,5 uur\nHoogtemeters\n±540 m\nMoeilijkheid\nGemiddeld"],["🍽 Lunch","Berghut onderweg."],["📍 Locaties","📍 Open in Google Maps (bestaande links uit bronbestand behouden)"],["💡 Bijzonderheden","Bekroonde Kaisertal\nTraditionele almen\nUitzicht op de Kaiserbergen\nTerug naar het resort voor wellness of zwemmen in de Walchsee"]]},
+    {"title":"Dag 7 – Flexdag","sections":[["📅 Dagplanning","Afhankelijk van het weer kies je één van de volgende bestemmingen:"],["📍 Locaties","📍 Open in Google Maps (bestaande links uit bronbestand behouden)"],["💡 Bijzonderheden","Kitzbühel\nReit im Winkl\nKössen\nExtra bergwandeling"]]},
+    {"title":"Dag 8 – Terugreis","sections":[["📅 Dagplanning","Rustig ontbijt.\nVertrek richting Nederland."]]}
+  ],
+  "restaurants": [
+    ["Postgasthof Fischerwirt","Traditionele Tiroolse keuken, ideaal voor eerste of laatste avond.","Wiener Schnitzel / Tiroler Gröstl","Aanbevolen"],
+    ["Seestüberl Walchsee","Mooi terras direct aan het meer.","Lunch of diner met uitzicht","Aanbevolen"],
+    ["Das Lakes Restaurant","Modern restaurant met seizoensgebonden menu.","Chefsmenu","Aanbevolen"],
+    ["Auracher Löchl","Historisch restaurant in Kufstein.","Steak of Oostenrijkse klassiekers","Ja"],
+    ["Purlepaus","Gezellige Oostenrijkse gerechten.","Schnitzel","Aanbevolen"],
+    ["Brentenjochalm","Berghut tijdens wandeling vanaf de Kaiserlift.","Kaiserschmarrn","Niet nodig"],
+    ["Aschinger Alm","Panoramaterras en berggerechten.","Kaiserschmarrn","Niet nodig"],
+    ["Gruttenhütte","Lunchplek tijdens wandeling Wilder Kaiser.","Dagmenu","Niet nodig"],
+    ["Café Praschberger","Koffie en huisgemaakt gebak.","Apfelstrudel","Niet nodig"],
+    ["Café im Zentrum Kufstein","Ideale koffiestop in de stad.","Gebak","Niet nodig"]
+  ],
+  "walks": [
+    ["Rondje Walchsee","5,8 km","40 hm","1,5 uur","Eenvoudig","Perfecte kennismakingswandeling rondom het meer."],
+    ["Lochner Wasserfall","6,5 km","220 hm","2 uur","Eenvoudig","Korte wandeling naar een fraaie waterval."],
+    ["Heuberg","10,8 km","760 hm","5 uur","Middelzwaar","Bergwandeling met panoramisch uitzicht."],
+    ["Zahmer Kaiser","9,2 km","430 hm","3,5 uur","Gemiddeld","Afwisselende route langs almen en bergweiden."],
+    ["Kaisertal","11,2 km","540 hm","4,5 uur","Gemiddeld","Klassieke dalwandeling met berghutten."]
+  ],
+  "practical": [
+    ["Aanbevolen uitrusting","Stevige bergwandelschoenen\nWandelstokken voor langere tochten\nMinimaal 1,5 liter water\nRegenjas\nZonnebrand en pet\nOffline wandelkaart of GPX"],
+    ["Praktische gegevens uit het oorspronkelijke vakantiedossier, opnieuw vormgegeven.",""],
+    ["🏨 Verblijf","Das Walchsee Aktivresort ligt in het centrum van Walchsee, op ongeveer twee minuten lopen van het meer. Gratis parkeren en ondergrondse garage voor hotelgasten."],
+    ["🅿️ Parkeren","Met de Kaiserwinkl Card kan op aangewezen parkeerterreinen gratis worden geparkeerd. Voorbeeld: Parkplatz Ostufer 1 Walchsee."],
+    ["🚗 Oostenrijks vignet","Voor auto's tot en met 3,5 ton is doorgaans een 10-daags vignet voldoende voor deze reis."],
+    ["💡 Praktisch tijdens de vakantie","• Neem regenkleding en een warme laag mee.\n• Controleer weersverwachting en liftstatus.\n• Bewaar de Kaiserwinkl Card.\n• Download Google Maps offline.\n• Neem identiteitsbewijs mee voor Duitsland.\n• Contant geld is handig bij berghutten."],
+    ["📍 Handige adressen","• Walchsee centrum\n• Kufstein centrum\n• Festung Kufstein\n• Kaiserlift Kufstein\n• Prien/Stock haven Chiemsee\nAlle bestaande Google Maps-links uit het bronbestand blijven behouden."],
+    ["✅ Controle vóór vertrek","□ Openingstijden controleren\n□ Weersverwachting bekijken\n□ Restaurants reserveren indien gewenst\n□ Digitaal vignet controleren\n□ Routes offline opslaan"],
+    ["Bronnen","De verwijzingen naar Das Walchsee Resort, Kaiserwinkl en ASFINAG uit het oorspronkelijke dossier blijven behouden."]
+  ],
+  "specialties": "Lokale specialiteiten\nKaiserschmarrn\nTiroler Gröstl\nKäsespätzle\nSpeckknödel\nApfelstrudel"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Das Walchsee Resort",
+  "short_name": "Walchsee",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#f7f5f0",
+  "lang": "nl"
+}
