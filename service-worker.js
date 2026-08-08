@@ -1,7 +1,8 @@
-const CACHE_NAME = 'walchsee-v1';
+const CACHE_NAME = 'walchsee-v2';
 const APP_FILES = [
   './', './index.html', './dagplanning.html', './restaurants.html', './wandelingen.html', './praktisch.html',
-  './css/style.css', './js/app.js', './data/walchsee.json', './manifest.json'
+  './css/style.css', './js/app.js', './data/walchsee.json', './manifest.json',
+  './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'
 ];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES))));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
