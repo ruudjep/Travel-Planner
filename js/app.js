@@ -18,6 +18,14 @@
     'Auracher Löchl':'Auracher Löchl, Kufstein, Austria', 'Purlepaus':'Restaurant Purlepaus, Kufstein, Austria', 'Brentenjochalm':'Brentenjochalm, Kufstein, Austria',
     'Aschinger Alm':'Aschinger Alm, Ebbs, Austria', 'Gruttenhütte':'Gruttenhütte, Scheffau am Wilden Kaiser, Austria', 'Café Praschberger':'Café Praschberger, Walchsee, Austria', 'Café im Zentrum Kufstein':'Café im Zentrum, Kufstein, Austria'
   };
+  const restaurantReservations = {
+    'Das Lakes Restaurant':'https://www.daslakes.at/de/tischreservierung'
+  };
+  const restaurantPhones = {
+    'Postgasthof Fischerwirt':'+4353745239',
+    'Das Lakes Restaurant':'+4353745331500',
+    'Auracher Löchl':'+43537262138'
+  };
   const walkMaps = {
     'Rondje Walchsee':'Walchsee, 6344 Walchsee, Austria', 'Lochner Wasserfall':'Lochner Wasserfall, Walchsee, Austria', 'Heuberg':'Heuberg, Kössen, Austria', 'Zahmer Kaiser':'Zahmer Kaiser, 6344 Walchsee, Austria', 'Kaisertal':'Kaisertal, Kufstein, Austria'
   };
@@ -35,7 +43,7 @@
   ];
   if (page === 'planning') content.innerHTML = data.days.map((day, dayIndex) => card(day.title, day.sections.map(([heading, body]) => `<h3>${escape(heading)}</h3>${text(withoutMapReference(body))}${heading === '📍 Locaties' ? dayMaps[dayIndex].map(mapButton).join('') : ''}`).join(''))).join('');
   if (page === 'restaurants') {
-    content.innerHTML = `<p class="section-intro">Compact overzicht van de restaurants uit het oorspronkelijke vakantiedossier, opnieuw vormgegeven.</p>${data.restaurants.map(([name, why, recommendation, reservation]) => card(name, `<h3>📍 Locatie</h3>${mapButton(restaurantMaps[name])}<h3>👍 Waarom</h3>${text(why)}<h3>🍽 Aanrader</h3>${text(recommendation)}<h3>📞 Reserveren</h3>${text(reservation)}`)).join('')}${card('Lokale specialiteiten', text(data.specialties.split('\n').slice(1).join('\n')))}`;
+    content.innerHTML = `<p class="section-intro">Compact overzicht van de restaurants uit het oorspronkelijke vakantiedossier, opnieuw vormgegeven.</p>${data.restaurants.map(([name, why, recommendation, reservation]) => card(name, `<h3>📍 Locatie</h3>${mapButton(restaurantMaps[name])}<h3>👍 Waarom</h3>${text(why)}<h3>🍽 Aanrader</h3>${text(recommendation)}<h3>📞 Reserveren</h3>${text(reservation)}${restaurantReservations[name] ? `<a class="map-link" href="${restaurantReservations[name]}" target="_blank" rel="noopener">🌐 Online reserveren</a>` : ''}${restaurantPhones[name] ? `<a class="map-link" href="tel:${restaurantPhones[name]}">📞 Bel reserveren</a>` : ''}`)).join('')}${card('Lokale specialiteiten', text(data.specialties.split('\n').slice(1).join('\n')))}`;
   }
   if (page === 'walks') {
     content.innerHTML = `<p class="section-intro">Overzicht van de wandelingen uit het oorspronkelijke vakantiedossier in een uniforme opmaak.</p>${data.walks.map(([name, distance, elevation, duration, difficulty, description]) => card(name, `<div class="facts"><div class="fact"><strong>🥾 Afstand</strong>${escape(distance)}</div><div class="fact"><strong>⛰ Hoogtemeters</strong>${escape(elevation)}</div><div class="fact"><strong>🕒 Duur</strong>${escape(duration)}</div><div class="fact"><strong>⭐ Moeilijkheid</strong>${escape(difficulty)}</div></div><h3>📍 Locatie</h3>${mapButton(walkMaps[name])}<h3>Beschrijving:</h3>${text(description)}`)).join('')}`;
