@@ -1,6 +1,6 @@
-const CACHE_NAME = 'walchsee-v3';
+const CACHE_NAME = 'walchsee-v4';
 const APP_FILES = [
-  './', './index.html', './dagplanning.html', './restaurants.html', './wandelingen.html', './praktisch.html',
+  './', './index.html', './dagplanning.html', './restaurants.html', './wandelingen.html', './praktisch.html', './bezienswaardigheden.html',
   './css/style.css', './js/app.js', './data/walchsee.json', './manifest.json',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'
 ];
